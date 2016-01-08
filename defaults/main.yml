@@ -7,9 +7,5 @@ sabnzbd_group_name: sabnzbd
 sabnzbd_data_location: /var/sabnzbd
 
 # SABnzbd Network Information
-sabnzbd_ip_addr: 0.0.0.0
+sabnzbd_ip_addr: "0.0.0.0"
 sabnzbd_port_no: 8080
-
-# SABnzbd ExtraOpts
-sabnzbd_extra_opts: ""
-
