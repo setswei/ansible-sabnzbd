@@ -1,4 +1,7 @@
 ---
 
-- name: restart sabnzbd
+- name: restart sabnzbdplus
   service: name=sabnzbdplus state=restarted
+
+- name: start sabnzbdplus 
+  service: name=sabnzbdplus state=started

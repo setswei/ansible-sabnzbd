@@ -39,7 +39,7 @@
     template: dest=/etc/default/sabnzbdplus
               src=ubuntu.default.j2
               owner=root group=root mode=755
-    notify: restart sabnzbd
+    #notify: start sabnzbdplus
               
   - name: Ensure SABnzbd service is running and enabled on boot
     service: name=sabnzbdplus state=started enabled=yes
