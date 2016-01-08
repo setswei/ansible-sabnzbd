@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+
+  vars:
+    sabnzbd_user_name: neofire
+    sabnzbd_group_name: neofire
+    sabnzbd_data_location: /home/neofire/.sabnzbd
+    sabnzbd_ip_addr: "0.0.0.0"
+    sabbzdb_port_no: "8080"
+
+  roles:
+    - ansible-role-sabnzbd
