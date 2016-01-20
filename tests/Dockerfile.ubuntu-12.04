@@ -5,7 +5,7 @@ RUN apt-get update
 
 # Install Ansible
 RUN apt-get install -y software-properties-common git
-RUN apt-add-repository -y ppa:ansible/ansible
+RUN add-apt-repository -y ppa:ansible/ansible
 RUN add-apt-repository -y "deb http://archive.ubuntu.com/ubuntu precise multiverse"
 RUN apt-get update
 RUN apt-get install -y ansible
