@@ -4,7 +4,7 @@ RUN sed -i -e 's/archive.ubuntu.com/au.archive.ubuntu.com/g' /etc/apt/sources.li
 RUN apt-get update
 
 # Install Ansible
-RUN apt-get install -y software-properties-common git
+RUN apt-get install -y software-properties-common git python-software-properties
 RUN add-apt-repository -y ppa:ansible/ansible
 RUN add-apt-repository -y "deb http://archive.ubuntu.com/ubuntu precise multiverse"
 RUN apt-get update
