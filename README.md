@@ -1,5 +1,7 @@
 Ansible-Role-SABnzbd
 =======
+[![Build Status](https://travis-ci.org/setswei/ansible-sabnzbd.svg?branch=master)](https://travis-ci.org/setswei/ansible-sabnzbd) ![Build Status](http://bamboo.cybercrysis.net.au/plugins/servlet/wittified/build-status/SVR-ANSAB)
+
 This role deploys [SABnzbd](http://sabnzbd.org), an open source binary newsreader.
 
 Requirements
